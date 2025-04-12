@@ -1,0 +1,51 @@
+.slider {
+  
+}
+
+.slider .slider__info {
+  position: relative;
+  height: 500px;
+  background: url(https://picsum.photos/1240/500) no-repeat center;
+  background-size: cover;
+  border-radius: 5px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  padding: 20px;
+  line-height: 1.6;
+}
+
+.slider .slider__info::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.slider .slider__info-person {
+  font-size: 12px;
+  margin-bottom: 15px;
+  color: #e5e5e5;
+  z-index: 2;
+}
+
+.slider .slider__title {
+  z-index: 2;
+}
+
+.slider .slider__nav {
+  position: absolute;
+  bottom: 50px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 44px;
+  cursor: pointer;
+  border: 0.50px solid #f8f9fa;
+  z-index: 2;
+}
