@@ -1,7 +1,3 @@
-.slider {
-  
-}
-
 .slider .slider__info {
   position: relative;
   height: 500px;
@@ -48,4 +44,60 @@
   cursor: pointer;
   border: 0.50px solid #f8f9fa;
   z-index: 2;
+}
+
+.contacts {
+  margin-bottom: 100px;
+}
+
+.contacts__info {
+  background-image: url(../images/bg/contacts-bg.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  padding: 60px 20px;
+}
+
+.contacts__info::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.contacts__address {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+  color: #fff;
+  text-align: center;
+  z-index: 3;
+}
+
+.contacts__item a {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.2;
+  letter-spacing: -0.01em;
+  transition: opacity 0.3s;
+}
+
+.contacts__item a:hover {
+  opacity: 0.5;
+}
+
+.contacts__info-title {
+  text-transform: uppercase;
+  margin-bottom: 5px;
+}
+
+.contacts__socials-icons {
+  display: flex;
+  gap: 20px;
 }
