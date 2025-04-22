@@ -94,7 +94,7 @@ ul {
   font-weight: 500;
   font-size: 12px;
   line-height: 2;
-  color: rgba(248, 249, 250, 0.5);
+  color: #495057;
 }
 
 .articles-page__nav-ul {
@@ -109,7 +109,7 @@ ul {
   justify-content: center;
   cursor: pointer;
   padding-left: 25px;
-  border-left: 1px solid rgba(229, 229, 229, 0.5);
+  border-left: 1px solid #495057;
 }
 
 .articles-page__header-info {
